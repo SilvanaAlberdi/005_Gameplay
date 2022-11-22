@@ -35,5 +35,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    // private void PlayerInBounds()
+    private void FireProjectile()
+    {
+        Instantiate(projectilePrefab, transform.position, Quaternion.identity);
+    }
 }
