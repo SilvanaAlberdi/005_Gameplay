@@ -10,6 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 6529697224796581268}
   - component: {fileID: 6529697224787341734}
+  - component: {fileID: 1674221344654652087}
+  - component: {fileID: -6495607589632395188}
+  - component: {fileID: -3856293490695050350}
   m_Layer: 0
   m_Name: Fox
   m_TagString: Untagged
@@ -64,6 +67,44 @@ Animator:
   m_HasTransformHierarchy: 0
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!65 &1674221344654652087
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6529697224796791758}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 0.06658166, y: 0.20622897, z: 0.31567192}
+  m_Center: {x: 0.00066954194, y: 0.10182498, z: 0.010043979}
+--- !u!114 &-6495607589632395188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6529697224796791758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ff4d08380e1bd40b70e2a4828227d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 40
+--- !u!114 &-3856293490695050350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6529697224796791758}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40e4942ddeabad48ad6a66e81bface9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6529697224796793332
 GameObject:
   m_ObjectHideFlags: 0

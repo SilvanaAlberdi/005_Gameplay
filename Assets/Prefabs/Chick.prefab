@@ -102,6 +102,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2372769788133044717}
   - component: {fileID: 2372769788140523683}
+  - component: {fileID: 4929863990781998332}
+  - component: {fileID: 5859060552904708926}
+  - component: {fileID: 5434437374359840713}
   m_Layer: 0
   m_Name: Chick
   m_TagString: Untagged
@@ -146,6 +149,44 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4929863990781998332
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372769788133222677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5ff4d08380e1bd40b70e2a4828227d1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
+--- !u!114 &5859060552904708926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372769788133222677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b40e4942ddeabad48ad6a66e81bface9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!65 &5434437374359840713
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2372769788133222677}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.274316, y: 6.096054, z: 7.784621}
+  m_Center: {x: 0.031623576, y: 3.0127172, z: 0.2278856}
 --- !u!1 &2372769788133223709
 GameObject:
   m_ObjectHideFlags: 0
